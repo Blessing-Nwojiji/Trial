@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Handlee">
+  <style>
+   .oge{font-family: Handlee; background-color: #efefef;}
+   .section{background-color: #fff; padding: 15px; margin-bottom: 10px; border-radius: 10px;}
+   h1{text-align: center; color: #20bcd5;}
+   h1 span{border: 4px dashed #20bcd5;}
+   .quote{font-size: 12pt; text-align: right; margin-top: 10px;}
+   .selected{background-color: #f36f48; font-weight: bold; color: white;}
+   form{text-align: center;}
+   input{margin-bottom: 10px; font-size: 11pt; padding: 15px 10px 10px; border: 2px solid #cecece; background-color: #efefef; color: #464242; border-radius: 5px; width: 20%;}
+   textarea{margin-bottom: 10px; font-size: 11pt; padding: 15px 10px 10px; border: 2px solid #cecece; background-color: #efefef; color: #464242; border-radius: 5px; width: 20%;}
+   table{border: 2px solid #cecece; border-collapse: collapse; text-align: center; table-layout:fixed;}
+   .copyright{font-size: 8pt; text-align: right; padding-bottom: 10px; color: gray;}
+   .face{transform: scale(0.4); margin: 0 auto; display: block; margin-top: -35px; margin-bottom: 25px;}
+  </style>
+  <meta name="description" content="Blog">
+  <meta name="viewport" content="device-width, initial-scale=1.0"/>
+  <title>First webPage</title>
+ </head>
+ <body class="oge">
+  <header class="section">
+   
+   <h1>Blessing</h1>
+  </header>
+  <div class="section">
+   <h1><span>About Me</span></h1>
+   <p>Hey! I'm <strong>Blessing</strong>. Coding has changed my world. It's not just about apps. learning to code gave me <i>problem-solving skills</i> and a way to communicate with others on a technical level. I can also develop websites and use my coding skills to get a better job. And I learned it <strong>All</strong>. Join me in this rewarding journey. You'll have fun, get help, and learn along the way!</p>
+   <p class="quote">"Declare variables, not war"</p>
+  </div>
+  <div class="section">
+   <h1><span>My coding Schedule</span></h1>
+   <table>
+    <tr>
+     <th>Day</th>
+     <th>Mon</th>
+     <th>Tue</th>
+     <th>Wed</th>
+     <th>Thur</th>
+     <th>Fri</th>
+    </tr>
+    <tr>
+     <td>8-8:30</td>
+     <td class="selected">Learn</td>
+     <td></td>
+     <td></td>
+     <td></td>
+     <td></td>
+    </tr>
+    <tr>
+     <td>9-10</td>
+     <td></td>
+     <td class="selected">Practice</td>
+     <td></td>
+     <td></td>
+     <td></td>
+    </tr>
+    <tr>
+     <td>1-1:30</td>
+     <td></td>
+     <td></td>
+     <td class="selected">Play</td>
+     <td></td>
+     <td></td>
+    </tr>
+    <tr>
+     <td>3:45-5</td>
+     <td></td>
+     <td></td>
+     <td></td>
+     <td class="selected">Code</td>
+     <td></td>
+    </tr>
+    <tr>
+     <td>6-6:15</td>
+     <td></td>
+     <td></td>
+     <td></td>
+     <td></td>
+     <td class="selected">Discuss</td>
+    </tr>
+   </table>
+  </div>
+  <div class="section">
+   <h1><span>My Skills</span></h1>
+   <ul style="font-weight: bold;">
+    <li>HTML <br> <progress min="0" max="100" value="80"></progress></li>
+    <li>Javascript <br> <progress min="0" max="100" value="50"></progress></li>
+    <li>Python <br> <progress min="0" max="100" value="30"></progress></li>
+   </ul>
+  </div>
+  <!--My Skills section end-->
+  <!--Media section start-->
+  <div class="section">
+   <h1><span>My Media</span></h1>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/6OMiQdYh6q4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>Hey i am unavailabel right now</iframe>
+  </div>
+  <!--Media section end-->
+
+  <!--Form section starts-->
+  <div class="section">
+   <h1><span>Contact Me</span></h1>
+   <svg class="face" height="100" width="100">
+    <circle cx="50" cy="50" r="50" fill="#FDD835"/>
+    <circle cx="30" cy="30" r="10" fill="#FFFFFF"/>
+    <circle cx="70" cy="30" r="10" fill="#FFFFFF"/>
+    <circle cx="30" cy="30" r="5" fill="#000000"/>
+    <circle cx="70" cy="30" r="5" fill="#000000"/>
+    <path d="M 30 70 q 20 20 40 0" stroke="#FFFFFF" stroke-width="5" fill="none"/>
+   </svg>
+   <form>
+    <input type="text" name="name" placeholder="Name" required><br>
+    <input type="email" placeholder="Email" name="email" required> <br>
+    <textarea name="message" placeholder="Message" id="message" cols="30" rows="10"></textarea>
+    <button type="submit">Submit</button>
+   </form>
+  </div>
+  <div class="section" id="contacts">
+   <h1><span>Follow me</span></h1>
+   <div>
+    <a href="https://www.google.com" target="_blank">
+     <img src="https://media.wired.com/photos/5926ffe47034dc5f91bed4e8/master/w_2560%2Cc_limit/google-logo.jpg" width="100" alt="i LOVE You">
+    </a>
+    <a href="#">
+     <img src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=512&h=512" alt="Facebook" width="50">
+    </a>
+
+   </div>
+  </div>
+  <div class="copyright">&copy; 2021 My Blog. All rights reserved.</div>
+  <footer>
+   <a href="Student form.html">Page 2</a> &copy;2021
+  </footer>
+ </body>
+</html>
